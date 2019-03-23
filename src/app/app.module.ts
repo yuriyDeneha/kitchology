@@ -6,6 +6,7 @@ import { Section1Component } from './sections/section1/section1.component';
 import { Section2Component } from './sections/section2/section2.component';
 import { Section3Component } from './sections/section3/section3.component';
 import { Section4Component } from './sections/section4/section4.component';
+import {SharedModule} from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { Section4Component } from './sections/section4/section4.component';
   imports: [
     BrowserModule,
     TransferHttpCacheModule,
+      SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
