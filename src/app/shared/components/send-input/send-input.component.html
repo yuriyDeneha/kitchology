@@ -1,0 +1,15 @@
+<div class="register">
+  <form class="field" #sendForm="ngForm">
+    <input #register type="text" id="register" required>
+    <label for="register">
+      <span>Email Address</span>
+    </label>
+    <button
+            [disabled]="!sendForm.valid"
+            class="active"
+            [ngClass]="{'full': buttonClicked}"
+            #okButton (click)="okClick()">
+      {{buttonText()}}
+    </button>
+  </form>
+</div>
