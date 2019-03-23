@@ -1,0 +1,17 @@
+
+@import './colors.scss';
+
+.kit-btn{
+    padding: 12px 23px;
+    background: #009a42;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    transition: filter 0.2s ease-out;
+    &:hover{
+        filter: brightness(80%);
+    }
+}
