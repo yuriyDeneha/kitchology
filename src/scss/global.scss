@@ -8,6 +8,7 @@
   -webkit-box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
+  color: white;
 }
 
 html {
@@ -85,12 +86,22 @@ h1, h2, h3, h4, h5, h6 {
   background-color: $green;
 }
 
-.green-bg {
+.black-bg {
   background-color: $black;
+}
+
+.white-bg {
+  background-color: white;
 }
 
 .shadow {
   -webkit-box-shadow: inset hoff voff blur #000;
   -moz-box-shadow: inset hoff voff blur #000;
   box-shadow: inset hoff voff blur #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }

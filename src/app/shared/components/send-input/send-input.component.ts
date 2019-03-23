@@ -15,10 +15,13 @@ export class SendInputComponent implements OnInit {
 
   okClick() {
       this.buttonClicked = true;
+      setTimeout(() => {
+        this.buttonClicked = false;
+      }, 2000);
   }
 
   buttonText() {
-      return this.buttonClicked ? 'Send' : 'Ok';
+      return this.buttonClicked ? 'Sent' : 'Send';
   }
 
 }

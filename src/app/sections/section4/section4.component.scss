@@ -1,12 +1,35 @@
+@import '../../../scss/colors.scss';
+
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
 .first {
+  padding: 50px
 
 }
 
 .second {
 
+}
+
+.info {
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    i {
+      margin-right: 20px;
+      font-size: 20px;
+      color: $greyText;
+    }
+
+  }
+
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
 }
